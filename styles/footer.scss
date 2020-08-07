@@ -1,0 +1,99 @@
+@import "variables";
+
+footer {
+  margin-top: 109px;
+}
+
+.footer__Top {
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: $containerSize;
+  height: inherit;
+}
+
+.footer__Brand {
+  width: 427px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #898989;
+}
+
+.BrandText1 {
+  margin: 30px 0;
+}
+
+.footer__Column {
+  padding-top: 15px;
+}
+
+.footer__Column h2 {
+  margin: 0 0 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: $colorMain;
+}
+
+.footer__Column a {
+  display: block;
+  color: #898989;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer__Column a:hover {
+  color: $colorMain;
+}
+
+.footer__Column a:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.copyright {
+  width: 100%;
+  height: 79px;
+  margin: 109px auto 0;
+  background-color: $bgColorFull;
+}
+
+.copyright__New {
+  margin: 0 auto;
+  width: $containerSize;
+  color: #7a7a7a;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $bgColorFull;
+}
+
+
+.copyright__Right {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.copyright__Right a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.copyright__Right i {
+  width: 32px;
+  height: 32px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.copyright__Right i:hover {
+  color: white;
+  background: $colorMain;
+}

@@ -623,7 +623,7 @@ footer {
     margin-top: 109px;
 }
 
-.footerTop {
+.footer__Top {
     margin: 0 auto;
     display: flex;
     align-items: flex-start;
@@ -633,7 +633,7 @@ footer {
     height: inherit;
 }
 
-.footerBrand {
+.footer__Brand {
     width: 427px;
     font-size: 14px;
     font-weight: 300;
@@ -645,41 +645,41 @@ footer {
     margin: 30px 0;
 }
 
-.footerColumn {
+.footer__Column {
     padding-top: 15px;
 }
 
-.footerColumn h2 {
+.footer__Column h2 {
     margin: 0 0 30px;
     font-size: 18px;
     font-weight: 700;
     color: #f16d7f;
 }
 
-.footerColumn a {
+.footer__Column a {
     display: block;
     color: #898989;
     font-size: 16px;
     text-decoration: none;
 }
 
-.footerColumn a:hover {
+.footer__Column a:hover {
     color: #f16d7f;
 }
 
-.footerColumn a:not(:last-child) {
+.footer__Column a:not(:last-child) {
     margin-bottom: 25px;
 }
 
 .copyright {
     margin: 0 auto;
-    width: 1600px;
+    width: 100%;
     height: 79px;
     margin-top: 109px;
     background-color: #e6e6e6;
 }
 
-.copyrightsNew {
+.copyright__New {
     margin: 0 auto;
     width: 1140px;
     color: #7a7a7a;
@@ -691,18 +691,18 @@ footer {
 }
 
 
-.copyrightsRight {
+.copyright__Right {
     display: flex;
     width: 200px;
     justify-content: space-between;
 }
 
-.copyrightsRight a {
+.copyright__Right a {
     text-decoration: none;
     color: inherit;
 }
 
-.copyrightsRight i {
+.copyright__Right i {
     width: 32px;
     height: 32px;
     background: white;
@@ -713,10 +713,11 @@ footer {
     text-align: center;
 }
 
-.copyrightsRight i:hover {
+.copyright__Right i:hover {
     color: white;
     background: #f16d7f;
 }
+
 
 .newArrivalsHead {
     height: 150px;
